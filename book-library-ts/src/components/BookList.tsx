@@ -1,5 +1,6 @@
 import React from "react"
 import books from "./BookItem";
+import Button from "./Button";
 
 const BookList: React.FC = () => {
     return (
@@ -14,7 +15,7 @@ const BookList: React.FC = () => {
           <div className="card-body">
             <h5 className="card-title"><strong>{book.title}</strong></h5>
             <p className="card-text">{book.author}</p>
-            <a href="#" className="btn btn-primary">Read more</a>
+            <Button/>
           </div>
               </div>
             </div>
